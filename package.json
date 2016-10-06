@@ -1,0 +1,50 @@
+{
+  "name": "react-webpack-ts",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-dev-server --iframe --inline --progress --port 9000 --host 0.0.0.0",
+    "start": "webpack-dev-server --iframe  --progress --port 9000 --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/icepoint0/react-webpack-ts.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "icepoint1999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icepoint0/react-webpack-ts/issues"
+  },
+  "homepage": "https://github.com/icepoint0/react-webpack-ts#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "core-js": "^2.4.0",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.15.0",
+    "http-server": "~0.7.1",
+    "jsx-loader": "~0.11.2",
+    "phantomjs-prebuilt": "^2.1.7",
+    "raw-loader": "^0.5.1",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0"
+  }
+}
