@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "webpack-dev-server --iframe --inline --progress --port 9000 --host 0.0.0.0",
     "start": "webpack-dev-server --iframe  --progress --port 9000 --host 0.0.0.0",
+    "build": "rimraf pro && webpack --config config/webpack.prod.js --progress --profile --bail",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,9 +23,11 @@
   },
   "homepage": "https://github.com/icepoint0/react-webpack-ts#readme",
   "dependencies": {
+    "core-js": "^2.4.0",
+    "jquery": "^3.1.1",
+    "jquery-validation": "^1.16.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "core-js": "^2.4.0",
     "zone.js": "0.6.12"
   },
   "devDependencies": {
